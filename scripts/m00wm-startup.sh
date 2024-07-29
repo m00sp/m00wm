@@ -19,13 +19,14 @@ fi
 pid=$$
 pgrep -f m00wm-startup.sh | grep -v "^$pid$" |xargs -I{} kill {}
 
+pkill -p plasmashell;
 #/usr/libexec/pipewire-launcher &
 #amixer;
 #/home/mimomu/.screenlayout/monitor.sh;
-#feh --bg-max ~/Downloads/buddha.png;
+feh --bg-max ~/Downloads/buddha.png;
 #setxkbmap br;
 xset s off -dpms;
-#pkill -p picom; picom & 
+pkill -p picom; picom & 
 #xautolock -time 10 -locker "i3lock -c 3f0000 -f" &
 #firefox &
 #konsole &
