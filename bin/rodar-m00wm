@@ -1,0 +1,7 @@
+#!/bin/sh
+while true; do
+  # log out to a file
+  startx &> ~/.m00wm.log
+  [[ $? > 0 ]] && mv ~/.m00wm.log ~/prev-m00wm.log
+  export RESTARTED=true
+done

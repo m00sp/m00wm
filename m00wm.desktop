@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=m00wm Session
+Comment=Usa esta sessão para rodar m00wm como tu desktop environment
+Exec=rodar-m00wm
+Icon=
+Type=Application
+DesktopNames=m00wm
