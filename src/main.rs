@@ -107,7 +107,7 @@ fn main() -> anyhow::Result<()> {
 
     let conn = RustConn::new()?;
     let key_bindings = parse_keybindings_with_xmodmap(raw_key_bindings())?;
-    let startup_hook = SpawnOnStartup::boxed("/home/mimomu/m00wm/scripts/m00wm-startup.sh");
+    let startup_hook = SpawnOnStartup::boxed("$HOME./config/m00wm.init");
     let layout_hook = Box::new(SpacingHook {
         inner_px: 0,
         outer_px: 0,

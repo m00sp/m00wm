@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=XSession
+Exec=/usr/local/bin/plasma-m00wm
+DesktopNames=KDE
+Name=Plasma-m00wm
+Comment=KDE Plasma with m00wm as the WM

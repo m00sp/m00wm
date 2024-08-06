@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=m00wm Session
-Comment=Use this session to run m00wm as your desktop environment
-Exec=m00wm
-Icon=
-Type=Application
-DesktopNames=m00de

@@ -7,6 +7,11 @@ build:
 	@RUSTFLAGS="-C target-feature=-crt-static" cargo build --release
 	@echo ":: Pronto"
 
+.PHONY: test
+test:
+	@echo ":: testando o m00wm no Xephyr"
+	./scripts/m00xephyr.sh
+
 .PHONY: install
 install:
 	@echo ":: Instalando o binario m00wm"
