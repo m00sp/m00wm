@@ -36,7 +36,7 @@ pub fn status_bar<X: XConn>() -> penrose_ui::Result<StatusBar<X>> {
         BAR_HEIGHT_PX,
         style.bg.unwrap_or_else(|| 0x000000.into()),
         FONT,
-        14,
+        10,
         vec![
             Box::new(Workspaces::new(style, highlight, empty_ws)),
             //esta função mostra o layout present, eu também não gosto, não faz falta

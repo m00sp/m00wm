@@ -11,7 +11,11 @@ use penrose::{
         Config, WindowManager,
     },
     extensions::{
-        hooks::{add_ewmh_hooks, startup::SpawnOnStartup, manage::SetWorkspace},
+        hooks::{
+            add_ewmh_hooks,
+            startup::SpawnOnStartup,
+            manage::{FloatingFixed, SetWorkspace, FloatingCentered, FloatingRelative},
+        },
         util::dmenu::{DMenu, DMenuConfig, MenuMatch},
     },
     map, util,
@@ -43,7 +47,7 @@ fn power_menu() -> Box<dyn KeyEventHandler<RustConn>> {
             match choice.as_ref() {
                 "desligar" => util::spawn("sudo poweroff"),
                 "reiniciar" => util::spawn("sudo reboot"),
-                "sair" => exit(0),
+                "sair" => util::spawn("pkill startplasma-x11"),
                 "bloquear" => util::spawn("i3lock -c 3f0000 -f"),
                 //"suspender" => util::spawn("notify-se")
                 _ => Ok(()),
@@ -117,10 +121,13 @@ fn main() -> anyhow::Result<()> {
     //let manage_hook = Box::new((ClassName("firefox"),SetWorkspace("2")));
     let my_manage_hook = manage_hooks! {
         ClassName("firefox") => SetWorkspace("2"),
-        ClassName("vlc") => SetWorkspace("5"),
+        ClassName("plasmashell") => SetWorkspace("9"),
+		ClassName("Xephyr") => FloatingCentered::new(0.8, 0.8),
+		ClassName("Xephyr") => SetWorkspace("5"),
     }; 
     let config = add_ewmh_hooks(Config {
         default_layouts: layouts(),
+        floating_classes: vec!["plasmashell".to_owned(), "krunner".to_owned(), "Plasma".to_owned(), "Kmix".to_owned(), "Klipper".to_owned(),"Plasmoidviewer".to_owned(), "systemsettings".to_owned()],
         startup_hook: Some(startup_hook),
         layout_hook: Some(layout_hook),
         manage_hook: Some(my_manage_hook),
