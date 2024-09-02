@@ -36,19 +36,23 @@ This should set you up for running `penrose-from-scratch` as a desktop session f
 The [progress-so-far.md](./progress-so-far.md) file in the root of this repository acts as a
 bit of a change log and reference for what we've done so far. If you're looking for a summary
 of what's been implemented (and when it was implemented) that's a good place to start.
-
-
+<div>
+<video controls autoplay loop muted playsinline>
+  <source src="imagens/m00alpine2-screen0.webm" type="video/webm" />
+  Your browser doesn't support the video tag and/or the video formats in use here – sorry!
+</video>
+</div>
 
 <div align="center">
-  <h1 align="center">Papermark</h1>
-  <h3>The open-source DocSend alternative.</h3>
+  <h1 align="center">m00wm</h1>
+  <h3>The Rust tiling Window Manager Alternative.</h3>
 
 <a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
 
 </div>
 
 <div align="center">
-  <a href="https://www.papermark.io">papermark.io</a>
+  <a href="https://www.luis-ti.dev.br">www.luis-ti.dev.br</a>
 </div>
 
 <br/>
@@ -174,7 +178,7 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 ### Our Contributors ✨
 
-<a href="https://github.com/mfts/papermark/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mfts/papermark" />
+<a href="https://github.com/m00sp/m00wm/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=m00sp/m00wm" />
 </a>
 
