@@ -37,7 +37,7 @@ The [progress-so-far.md](./progress-so-far.md) file in the root of this reposito
 bit of a change log and reference for what we've done so far. If you're looking for a summary
 of what's been implemented (and when it was implemented) that's a good place to start.
 <div>
-<video controls autoplay loop muted playsinline>
+<video controls autoplay>
   <source src="https://github.com/m00sp/m00wm/imagens/m00alpine2-screen0.webm" type="video/webm" />
   Your browser doesn't support the video tag and/or the video formats in use here – sorry!
 </video>
