@@ -73,7 +73,7 @@ Papermark is the open-source document sharing alternative to DocSend with built-
 
 ## Demo
 
-![m00wm](./images/m00alpine2-screen0.gif)
+![m00wm](./imagens/m00alpine2-screen0.gif)
 
 ## Tech Stack
 
