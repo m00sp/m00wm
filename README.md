@@ -8,7 +8,8 @@ You can follow along with the development of this repo on [youtube](https://www.
 
 This is a work in progress project to build up a fully featured tiling window manager from scratch
 so please make sure you have an alternative desktop environment available to use in case anything
-breaks!
+breaks
+
 
 
 ## Installation
@@ -36,9 +37,11 @@ This should set you up for running `penrose-from-scratch` as a desktop session f
 The [progress-so-far.md](./progress-so-far.md) file in the root of this repository acts as a
 bit of a change log and reference for what we've done so far. If you're looking for a summary
 of what's been implemented (and when it was implemented) that's a good place to start.
+
+![m00alpine2-screen0.gif](./imagens/m00alpine2-screen0.gif)
+
 <div>
-<video controls autoplay>
-  <source src="https://github.com/m00sp/m00wm/imagens/m00alpine2-screen0.webm" type="video/webm" />
+<video autoplay loop src="https://github.com/user-attachments/assets/ba717b85-494f-4851-b597-5a13c3773999" type="video/webm">
   Your browser doesn't support the video tag and/or the video formats in use here – sorry!
 </video>
 </div>
