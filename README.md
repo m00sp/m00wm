@@ -40,12 +40,6 @@ of what's been implemented (and when it was implemented) that's a good place to 
 
 ![m00alpine2-screen0.gif](./imagens/m00alpine2-screen0.gif)
 
-<div>
-<video autoplay loop src="https://github.com/user-attachments/assets/ba717b85-494f-4851-b597-5a13c3773999" type="video/webm">
-  Your browser doesn't support the video tag and/or the video formats in use here – sorry!
-</video>
-</div>
-
 <div align="center">
   <h1 align="center">m00wm</h1>
   <h3>The Rust tiling Window Manager Alternative.</h3>
@@ -79,7 +73,7 @@ Papermark is the open-source document sharing alternative to DocSend with built-
 
 ## Demo
 
-![Papermark Welcome GIF](.github/images/papermark-welcome.gif)
+![m00wm](./images/m00alpine2-screen0.gif)
 
 ## Tech Stack
 
@@ -175,9 +169,9 @@ pipenv update tinybird-cli
 
 ## Contributing
 
-Papermark is an open-source project and we welcome contributions from the community.
+m00wm is an open-source project and we welcome contributions from the community.
 
-If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are welcome.
 
 ### Our Contributors ✨
 
