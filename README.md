@@ -38,7 +38,7 @@ bit of a change log and reference for what we've done so far. If you're looking 
 of what's been implemented (and when it was implemented) that's a good place to start.
 <div>
 <video controls autoplay loop muted playsinline>
-  <source src="imagens/m00alpine2-screen0.webm" type="video/webm" />
+  <source src="https://github.com/m00sp/m00wm/imagens/m00alpine2-screen0.webm" type="video/webm" />
   Your browser doesn't support the video tag and/or the video formats in use here – sorry!
 </video>
 </div>
