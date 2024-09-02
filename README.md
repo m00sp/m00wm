@@ -36,12 +36,12 @@ This should set you up for running `penrose-from-scratch` as a desktop session f
 The [progress-so-far.md](./progress-so-far.md) file in the root of this repository acts as a
 bit of a change log and reference for what we've done so far. If you're looking for a summary
 of what's been implemented (and when it was implemented) that's a good place to start.
-
-<video controls autoplay loop muted playsinline>
-  <source src="imagens/m00alpine2-screen0.webm" type="video/webm" />
-  Your browser doesn't support the video tag and/or the video formats in use here – sorry!
-</video>
-
+<div>
+    <video controls autoplay loop muted playsinline>
+      <source src="imagens/m00alpine2-screen0.webm" type="video/webm" />
+      Your browser doesn't support the video tag and/or the video formats in use here – sorry!
+    </video>
+</div>
 
 <div align="center">
   <h1 align="center">m00wm</h1>
