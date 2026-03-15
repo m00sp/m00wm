@@ -1,6 +1,5 @@
 # m00wm
 
-[![en](https://img.shields.io/badge/English-EB5406?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.md) [![es](https://img.shields.io/badge/Español-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.es.md) [![br](https://img.shields.io/badge/Português-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.pt-BR.md)
 A tiling X11 window manager written in Rust, built from scratch using the awesome [penrose](https://github.com/sminez/penrose) crate.
 
 This is a learning project that builds a fully featured window manager incrementally. Please ensure you have an alternative desktop environment available in case anything breaks during testing.
@@ -109,3 +108,4 @@ Key configurations are defined in `src/main.rs`:
 
 - **sminez** for the [penrose](https://github.com/sminez/penrose) window manager framework and excellent documentation
 
+Translated using GitHub Copilot and GPT-4o.

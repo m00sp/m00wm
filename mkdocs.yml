@@ -1,0 +1,40 @@
+site_name: m00wm
+site_description: A tiling X11 window manager written in Rust
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        es: Español
+        pt-BR: Português Brasileiro
+      nav_translations:
+        es:
+          Home: Inicio
+          Features: Características
+          Installation: Instalación
+          Configuration: Configuración
+          Acknowledgments: Agradecimientos
+        pt-BR:
+          Home: Início
+          Features: Características
+          Installation: Instalação
+          Configuration: Configuração
+          Acknowledgments: Agradecimentos
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
