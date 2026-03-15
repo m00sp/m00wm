@@ -1,6 +1,6 @@
 # m00wm
 
-[![en](https://img.shields.io/badge/English-EB5406?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.md) [![es](https://img.shields.io/badge/Español-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.es.md) [![br](https://img.shields.io/badge/Português-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.pt-BR.md)
+[![en](https://img.shields.io/badge/English-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.md) [![es](https://img.shields.io/badge/Español-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.es.md) [![br](https://img.shields.io/badge/Português-EB5406?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.pt-BR.md)
 
 Um gerenciador de janelas tiling de X11 escrito em Rust, construído do zero usando a excelente crate [penrose](https://github.com/sminez/penrose).
 
