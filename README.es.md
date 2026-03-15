@@ -1,5 +1,7 @@
 # m00wm
 
+[![en](https://img.shields.io/badge/English-EB5406?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.md) [![es](https://img.shields.io/badge/Español-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.es.md) [![br](https://img.shields.io/badge/Português-380000?style=for-the-badge&logoColor=white&logo=DocuSign)](https://github.com/m00sp/m00wm/blob/main/README.pt-BR.md)
+
 Un gestor de ventanas tiling de X11 escrito en Rust, construido desde cero utilizando la excelente crate [penrose](https://github.com/sminez/penrose).
 
 Este es un proyecto educativo que construye un gestor de ventanas completamente funcional de forma incremental. Asegúrate de tener un entorno de escritorio alternativo disponible en caso de que algo falle durante las pruebas.
